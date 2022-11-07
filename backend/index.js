@@ -15,5 +15,5 @@ app.use('/api/notes', require('./routes/notes'))
 
 
 app.listen(port, () => {
-  console.log(`mongodb+srv://bkc:<Cbk@73592>@bkdeveloping.x09co.mongodb.net/?retryWrites=true&w=majority`)
+  console.log(`app listning on port ${port}`)
 })
